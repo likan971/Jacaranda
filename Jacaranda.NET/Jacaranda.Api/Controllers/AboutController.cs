@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace Jacaranda.Api.Controllers
@@ -12,7 +13,7 @@ namespace Jacaranda.Api.Controllers
         [Route("about")]
         public IHttpActionResult Get()
         {
-            return Ok("This is a ASP.NET Web Api Project");
+            return Ok("This is an ASP.NET Web Api Project");
         }
     }
 }
