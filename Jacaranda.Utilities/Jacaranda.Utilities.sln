@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jacaranda.Utilities", "Jacaranda.Utilities\Jacaranda.Utilities.csproj", "{863410A4-0E83-4154-BE0A-F9869B17439E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jacaranda.Utilities.Test", "Jacaranda.Utilities.Test\Jacaranda.Utilities.Test.csproj", "{B6CEBD85-D090-4639-BCEA-5D8A6D66CE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{863410A4-0E83-4154-BE0A-F9869B17439E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863410A4-0E83-4154-BE0A-F9869B17439E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863410A4-0E83-4154-BE0A-F9869B17439E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863410A4-0E83-4154-BE0A-F9869B17439E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6CEBD85-D090-4639-BCEA-5D8A6D66CE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CEBD85-D090-4639-BCEA-5D8A6D66CE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CEBD85-D090-4639-BCEA-5D8A6D66CE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CEBD85-D090-4639-BCEA-5D8A6D66CE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F7C5C4E-74E6-49E9-9554-3613FA7F7026}
+	EndGlobalSection
+EndGlobal
