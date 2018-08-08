@@ -8,6 +8,8 @@ using Autofac.Integration.WebApi;
 using Jacaranda.Data;
 using Jacaranda.Api.Infrastructure.Filters;
 using System.Web.Compilation;
+using Jacaranda.Utilities.Interfaces;
+using Jacaranda.Utilities.Implementations;
 
 namespace Jacaranda.Api
 {
@@ -47,6 +49,7 @@ namespace Jacaranda.Api
                    .Where(t => t.Name.EndsWith("Service"))
                    .AsImplementedInterfaces()
                    .InstancePerRequest();
+            builder.RegisterType<GoogleStorageService>().As<ICloudStorage>().WithParameter("projectId", "prismatic-pad-212513");
             // Register db context
             builder.RegisterType<JacarandaDbContext>().AsSelf();
             // Register exception filter to the root controller
